@@ -1,0 +1,4 @@
+[
+  {"xss_msg": "'</script><script>alert(\"XSS\")</script>'"}
+
+]
