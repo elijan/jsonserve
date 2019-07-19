@@ -1,7 +1,8 @@
 [
   {
     "xss_msg": "</script><script>alert(\"XSS\")</script>",
-    "xss_msg_encoded": "&#x3C;/script&#x3E;&#x3C;script&#x3E;alert(&#x22;XSS&#x22;)&#x3C;/script&#x3E;"
+    "xss_msg_encoded": "&#x3C;/script&#x3E;&#x3C;script&#x3E;alert(&#x22;XSS&#x22;)&#x3C;/script&#x3E;",
+    "some_html": "<h1> I should not be rendered </h1>"
   }
 
 ]
