@@ -2,8 +2,8 @@
   {
     "xss_msg": "</script><script>alert(\"XSS\")</script>",
     "xss_msg_encoded": "&#x3C;/script&#x3E;&#x3C;script&#x3E;alert(&#x22;XSS&#x22;)&#x3C;/script&#x3E;",
-    "render_me": "<h1> I should not be rendered </h1>",
-    "dont_render_me": "<h1> I should be rendered </h1>"
+    "render_me": "<h1> I should be rendered </h1>",
+    "dont_render_me": "<h1> I should NOT be rendered </h1>"
 
   }
 
